@@ -44,5 +44,10 @@ TEST_CASE(TestFail) {
 ```REQUIRE(condition)``` — assertion macro that aborts test on failure
 
 ```REQUIRE_EQ(a, b)``` — assertion macro to compare two int value
+
+### C++ Only:
+
+```REQUIRE_THROW(expr, ex_type)``` - assertion macro to check if expr throws the specified exception type
+ 
 ## License
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
